@@ -1,0 +1,25 @@
+set(src
+        src/ff_struct_core.h
+        src/ff_packet_queue.c
+        src/ff_packet_queue.h
+        src/ff_frame_queue.h
+        src/ff_frame_queue.c
+        src/ff_constants.h
+        src/ff_demuxer.c
+        src/ff_demuxer.h
+        src/ff_av_clock.c
+        src/ff_av_clock.h
+        src/ff_utils.h
+        src/ff_cmdutils.c
+        src/ff_cmdutils.h
+        src/ff_decoder.c
+        src/ff_decoder.h
+        src/ff_ffplay.c
+        src/ff_ffplay.h
+        src/ff_sync_renderer.c
+        src/ff_sync_renderer.h
+        src/ff_audio_sdl_renderer.c
+        src/ff_audio_sdl_renderer.h
+        src/ff_video_sdl_renderer.c
+        src/ff_video_sdl_renderer.h
+        PARENT_SCOPE)
